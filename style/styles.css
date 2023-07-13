@@ -7,9 +7,17 @@ html {
   font-family: "Nunito Sans", sans-serif;
 }
 
+@media only screen and (max-width: 460px) and (min-width: 320px) {
+  img {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .section__h1 {
@@ -23,7 +31,7 @@ html {
 .main__button {
   color: rgb(255, 255, 255);
   background-color: rgb(255, 140, 0);
-  border-radius: 1%, 70%, 70%, 70%;
+  border-radius: 0px 20px 20px 20px;
   cursor: pointer;
 }
 
@@ -35,4 +43,9 @@ html {
 
 .section__list {
   list-style: none;
+}
+
+.section__list {
+  width: 15rem;
+  height: 12rem;
 }
