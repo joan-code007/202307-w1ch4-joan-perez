@@ -6,3 +6,7 @@
 html {
   font-family: "Nunito Sans", sans-serif;
 }
+
+.main__h1 {
+  color: rgb(255, 140, 0);
+}
