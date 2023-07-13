@@ -7,11 +7,17 @@ html {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.main__h1 {
-  color: rgb(255, 140, 0);
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.main__h2 {
+.section__h1 {
+  color: rgb(255, 140, 0);
+  display: flex;
+}
+
+.section__h2 {
 }
 
 .main__button {
@@ -25,4 +31,8 @@ html {
 }
 
 .main__section--2 {
+}
+
+.section__list {
+  list-style: none;
 }
