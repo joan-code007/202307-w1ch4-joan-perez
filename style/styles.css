@@ -10,3 +10,19 @@ html {
 .main__h1 {
   color: rgb(255, 140, 0);
 }
+
+.main__h2 {
+}
+
+.main__button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 140, 0);
+  border-radius: 1%, 70%, 70%, 70%;
+  cursor: pointer;
+}
+
+.main__section--1 {
+}
+
+.main__section--2 {
+}
